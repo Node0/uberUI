@@ -1,0 +1,151 @@
+form#searchform > span > a:nth-of-type(1) {
+
+    color: #0000EE;
+    font-size: 12pt;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    margin: 5px 5px 5px 8px;
+
+}
+
+table.table-body th, table.table-body td {
+    padding: 2px;
+}
+
+td.activity {
+
+}
+
+td.activity > label {
+    font-weight: bold;
+    color: #FF8230;
+}
+
+td.activity > img {
+    width: 32px;
+    height: 32px;
+
+}
+
+input#searchclick {
+    border-radius: 19px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.66);
+    width: 38px;
+    height: 38px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: -2px;
+    margin-bottom: 4px;
+}
+input#searchclick:hover {
+    border-radius: 19px;
+    box-shadow: 0 0 1px 0 #000000;
+    width: 38px;
+    height: 38px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+
+a#action_update > img {
+
+    border-radius: 19px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.66);
+    width: 38px;
+    height: 38px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 1px;
+    margin-bottom: 6px;
+
+}
+
+a#action_update > img:hover {
+    border-radius: 19px;
+    box-shadow: 0 0 1px 0 #000000;
+    width: 38px;
+    height: 38px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+td.CellLabel > select#state1,
+td.CellLabel > select#state2,
+select#action_type,
+select#action_select {
+    border-radius: 7px;
+    font-size: 10pt;
+    font-weight: bold;
+    height: 29px;
+    width: 18%;
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+
+select#action_assign {
+    border-radius: 7px;
+    font-size: 10pt;
+    height: 29px;
+    width: 14%;
+
+}
+
+select#action_assign > option {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select#fromwhat,
+input#searchfor,
+span#more_div > span#more_sm_div > select#type,
+span#more_div > span#more_sm_div > select#sm_inwhat,
+select#active,
+select#cm_inwhat {
+    border-radius: 6px;
+    font-size: 10pt;
+    font-weight: bold;
+    height: 28px;
+    width: 14%;
+    background-color: rgba(175, 182, 205, 0.53) !important;
+    box-shadow: 0 0 6px 1px rgba(84, 84, 84, 0.41) inset;
+    margin-top: 9px;
+    margin-bottom: 9px;
+
+}
+
+#state1 > optgroup {
+    color: rgba(255, 255, 255, 0);
+}
+
+optgroup > option {
+    color:black;
+    font-size: 12pt;
+}
+
+select#action_type > optgroup {
+    color:rgba(255, 255, 255, 0);
+}
+
+tr > td > input[name*="selected_ticket\["] {
+
+    transform: scale(2);
+}
+
+tr > td > input[name*="selected_ticket_"],
+tr > td > input[name*="selected_pids\["],
+tr > td > input[name*="selected_pids_"],
+tr > td > input[name*="devices\["],
+tr > td > input[name*="monitors\["],
+tr > td > input[name="monitors_all"]{
+    transform: scale(1.6);
+    margin-left: 9px;
+}
+
+tr[id*="ticket"] > td:nth-child(3) > a {
+    font-family: helvetica;
+    font-size: 1.15em;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: lowercase;
+
+}
